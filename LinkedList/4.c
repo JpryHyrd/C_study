@@ -23,20 +23,20 @@ int main()
 {
     int flag = 0,num;
     while (flag == 0){
-        puts("--------------------------------------------");
-        puts("\n\nThere are some commands of LinkedList:");
-        puts("--------------------------------------------");
-        puts("1.Create a first element of LinkedList");
-        puts("2.Add element in the end of LinkedList");
-        puts("3.Delete element from the end of LinkedList");
-        puts("4.Show all elements of LinkedList");
-        puts("5.Clear LinkedList");
-        puts("6.Find element of LinkedList");
+        puts("--");
+        puts("\n\nCommands of LinkedList:");
+        puts("--");
+        puts("1.First element of LinkedList");
+        puts("2.Add element to the end");
+        puts("3.Delete element from the end");
+        puts("4.Show all elements ");
+        puts("5.Clear");
+        puts("6.Find element");
         puts("7.Exit");
-        puts("--------------------------------------------");
-        puts("\nChoose a command: ");
+        puts("--");
+        puts("\nChoose: ");
         scanf("%d",&num);
-        puts("--------------------------------------------");
+        puts("--);
         if (num == 1){
             begin();
             continue;
